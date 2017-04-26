@@ -1,0 +1,34 @@
+C# 
+Class diagram
+
+regular - class
+italic - abstract
+
++ is public
+- is private 
+# is protected
+underline is internal
+
+//bool == Boolean
+
+IL - intermediate language code
+
+Solutions //container of projects like console, web, library
+	|--Project //logical groupings of classes, can have many namespaces.
+	|--Namespace //package, logical grouping of classes.
+	
+System.object - equals, gethashcode, gettype, tostring
+
+
+this - 
+base - super
+
+Abstract class - a class that can't be instantiated
+	- must have one abstract method with no implementation.
+	- meant to be the base class
+	- override is used to implement the abstract method
+Virtual - a method whic is meant to be overrided.
+		- with implementation
+New - used to override (to shadow) a class.
+
+Sealed - uninheritable

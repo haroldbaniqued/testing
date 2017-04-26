@@ -1,0 +1,9 @@
+Create a VS Solution named "BlastAsia.HumanResource"
+Create a Console Application project named "BlastAsia.HumanResource.ConsoleUI"
+Create a class named "Employee" with properties: EmployeeId, FirstName, LastName, Birthdate, DateHired, MiddleName, Salary
+Create a class named "Department" with properties: DepartmentId, Name, DepartmentHeadId
+Create a class named "Benefit" with properties: BenefitId, Name
+
+
+PRIVATE SETTER
+CONSTRUCTOR FOR THE DEFAULT VALUES

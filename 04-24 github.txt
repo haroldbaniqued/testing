@@ -1,0 +1,93 @@
+/*April 24, 2017
+GIT VERSION CONTROL
+Baniqued, Harold Khen Daniel
+*/
+
+
+//go to the directory
+cd /Directory name
+
+//create directory
+mkdir GitTraining 
+
+//initialize, creates hidden folder .git
+git init
+
+//
+vim filename
+cat filename
+
+//creates a notepad
+notepad sample.cs
+echo "Hello World" | git hash-object -w --stdin
+
+//check status
+git status
+
+//to staging area
+git add <filename>
+
+//to repository
+git commit -m "Message"
+
+//view log
+git log
+--graph
+--decorate
+--oneline
+
+
+//view tree
+git cat-file hash -p 
+-t //view type
+-p //print
+
+//view blob
+git cat-file -p hash
+
+//reset to
+git reset
+--hard //repository to working area
+--mixed //repository to index
+
+//revert
+git revert 
+
+//ignore
+echo .git > .gitignore
+
+//branch - a pointer to a commit
+git branch <name>
+-d //delete
+
+//switch to branch
+git checkout <branch>
+
+//merges two branches
+git merge <branch>
+
+//compare the areas
+git diff //working and repository
+--cached //index and repository
+
+//for linear history
+git rebase
+
+//one commit only
+git squash
+
+//print working directory
+pwd 
+
+//---------------------------------
+//type of git object types
+commit object
+tree 							//directory
+blob binary large objects		//files
+annotated tags
+
+//----------------------
+Working area/directory			//where to change the code
+Index							//staging area
+Repository						//commit
+Stash							//

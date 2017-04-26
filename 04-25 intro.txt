@@ -1,0 +1,59 @@
+
+Git - version control system, tracking changes, coordinating work
+commit - snapshot of what will be saved on the repository
+
+Configuring Git
+Global configuration
+git config --global user.name "Your Name"
+git config --global user.email "Your email"
+
+Set the Git user for a specific repository
+git config user.name "Your Name"
+git config user.email "Your email"
+
+SD-TEAM-A
+lark
+sheila
+erskine
+khen
+
+SD-TEAM-B
+lennard
+marvin
+christian
+francis
+
+SD-TEAM-C
+aaron
+mark
+aljhon
+
+SD-TEAM-D
+vincent
+sir rey
+joseph
+edison
+
+
+// to clone the repository
+git clone <url>
+
+git push
+
+git pull
+
+git remote add <name> <url>
+--verbose //for fetching and pushing
+
+//save to stash 
+git stash save
+
+//remove from stash
+git stash (pop|apply)
+
+
+//-----------
+
+master - stable codes only
+
+develop

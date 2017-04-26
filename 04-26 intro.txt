@@ -1,0 +1,104 @@
+/*April 26, 2017
+C# Fundamentals
+Baniqued, Harold Khen Daniel
+*/
+
+C# 6.0
+
+Hello World!
+
+|
+| Statements and Expressions
+|__________________________
+Staments 
+-statements is an instruction in C#
+-ends with semi-colon ";"
+-whitespaces doesn't matter (but whitespaces are essential to make the code readable, 3 spaces)
+
+Expressions
+-a statement that evaluates to a value
+
+Bugs
+-Compile time //during the development, before running the application
+-Run time //during the run of the application
+-Compile time bugs are better than run time // compile time > run time
+
+|
+|Workflow compiling
+|_____________________
+Code you write -> Intermediate Language (IL) -> Executable -> Running
+              └compile time bugs here                            └run time bugs here
+
+|			  
+|Variables
+|__________
+Variable - value holder //holder for a value
+-it has type (eg. int)
+-it has an identifier (eg. myAge)
+-it has a value that may change during the running of the program
+
+statically type - c#, variables are identified during the compile time.
+dynamic type - javascript, variables are identified during run time
+
+
+|If statements
+|______________
+
+|
+|Truth
+|_______
+&& and, both must be true
+|| or, atleast one must be true
+
+AND
+1st   |2nd   |result
+true  |true  |true
+true  |false |false
+false |true  |false
+false |false |false
+
+OR
+1st   |2nd   |result
+true  |true  |true
+true  |false |true
+false |true  |true
+false |false |false 
+
+| Increment/Decrement
+|_____________________
+
+|
+| For loop
+|__________
+initialization, condition, increment/decrement
+
+|
+| While and do while loop
+|__________________________
+
+While loop - conditions are checked first after executing the codes
+do while - statements are executed atleast once and check the condition after it.
+
+|
+| Constants
+|______________
+Constants - values that never changes.
+-easier to fix a value used in many places.
+
+|
+| Enumerated Constants
+|__________________________
+Enums - gives an invididual value to each set
+-simplify programing
+-by default, starts at zero and increments by 1.
+ 
+  enum Actions {
+	  Create, //0 
+	  Delete, //1 
+	  Save    //2
+  }
+  
+|
+| Switch statments
+|_________________
+Cleaner version of if statement.

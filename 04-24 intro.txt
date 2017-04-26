@@ -1,0 +1,35 @@
+/*April 24, 2017
+C# Classes
+Baniqued, Harold Khen Daniel
+*/
+
+IDE Integrated Development Environment
+
+class - blueprint, template
+instance - actual object
+
+class have properties and methods(behaviour)
+
+Function - it will be a method if attached to an object
+
+Syntactic sugar
+
+class default is INTERNAL (inside the project)
+properties default is PRIVATE
+
+access modifier = PUBLIC, PRIVATE, INTERNAL, PROTECTED (inherited subclass only)
+
+//--- NAMING CONVENTIONS
+
+camel case, pascal case, hungarian notation
+
+camel case - small letter first
+pascal case - capital letter first
+hungarian notation - all caps
+
+
+//
+
+constructor = special method with no return value with a name similar to class
+--for special cases like setting default values
+--called when instantiated by the project
